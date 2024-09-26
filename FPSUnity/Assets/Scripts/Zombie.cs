@@ -47,12 +47,12 @@ public class Zombie : MonoBehaviour
             ZombieSpawner.Instance.CountZombies();
             Instantiate(gutsPrefab, transform.position, Quaternion.identity, null);
             Destroy(gameObject);
+
         }
         else
         {
             Instantiate(babyGutsPrefab, transform.position, Quaternion.identity, null);
             healthBarFill.fillAmount = currentHealth / maxHealth;
-
         }
     }
 
