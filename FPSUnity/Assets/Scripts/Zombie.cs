@@ -18,6 +18,7 @@ public class Zombie : MonoBehaviour
     public GameObject gutsPrefab;
     public GameObject babyGutsPrefab;
 
+    public Image healthBarBG;
     public Image healthBarFill;
 
     void Start()
@@ -25,6 +26,9 @@ public class Zombie : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();       //
         target = FindFirstObjectByType<FPSController>().transform;
         currentHealth = maxHealth;
+        healthBarBG.gameObject.SetActive(false);
+        healthBarFill.gameObject.SetActive(false);
+        //healthBarBG.GetComponent<Image>()
     }
 
     void Update()
@@ -40,6 +44,8 @@ public class Zombie : MonoBehaviour
 
     public void TakeDamage(float damageToTake)        // public for projectile script 
     {
+        healthBarBG.gameObject.SetActive(true);
+        healthBarFill.gameObject.SetActive(true);
         currentHealth -= damageToTake;
 
         if (currentHealth <= 0)

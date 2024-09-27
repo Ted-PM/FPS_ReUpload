@@ -937,3 +937,1043 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1578.865330 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.007331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.583303 seconds.
+  path: Assets/Models
+  artifactKey: Guid(7ce5c76f810c58d439282e623e2131d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(7ce5c76f810c58d439282e623e2131d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343a8ba5c8c6fec718ae70a0e843f139') in 0.002369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.282782 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbx
+  artifactKey: Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbx using Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd378bb1181bf09cdbd3861da06628bf9') in 0.306186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 61.298056 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbx
+  artifactKey: Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbx using Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84390f9ed44efa1e79d4cb430f1ed55') in 0.295882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 31.207139 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbx
+  artifactKey: Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbx using Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3ec01c631c3434a25850a0729a4836') in 0.140660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.914 seconds
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.956 seconds
+Domain Reload Profiling: 1866ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (630ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (338ms)
+			TypeCache.Refresh (333ms)
+				TypeCache.ScanAssembly (315ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (957ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (87.2 KB). Loaded Objects now: 4062.
+Memory consumption went from 135.5 MB to 135.4 MB.
+Total: 6.110000 ms (FindLiveObjects: 0.463900 ms CreateObjectMapping: 0.292600 ms MarkObjects: 5.231300 ms  DeleteObjects: 0.121200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54.881099 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbx
+  artifactKey: Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbx using Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240d52227ee685b957d3ae251f906477') in 0.157639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.879 seconds
+Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.532 seconds
+Domain Reload Profiling: 2404ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (599ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (327ms)
+			TypeCache.Refresh (322ms)
+				TypeCache.ScanAssembly (305ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 5.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (71.0 KB). Loaded Objects now: 4065.
+Memory consumption went from 135.5 MB to 135.4 MB.
+Total: 4.270300 ms (FindLiveObjects: 0.417200 ms CreateObjectMapping: 0.320900 ms MarkObjects: 3.408600 ms  DeleteObjects: 0.122600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.657136 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbx
+  artifactKey: Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbx using Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fe0bf2a3da67f6be17b2f2a0491213') in 0.284849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 147
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.873 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.259 seconds
+Domain Reload Profiling: 2129ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (585ms)
+		LoadAssemblies (353ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (285ms)
+				TypeCache.ScanAssembly (273ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1260ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (427ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (95.2 KB). Loaded Objects now: 4068.
+Memory consumption went from 135.5 MB to 135.4 MB.
+Total: 5.580000 ms (FindLiveObjects: 0.612600 ms CreateObjectMapping: 0.460700 ms MarkObjects: 4.370300 ms  DeleteObjects: 0.134800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.790320 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbx
+  artifactKey: Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbx using Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56aa1b0337b00f15d6070362122ee46f') in 0.271050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 147
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.898 seconds
+Refreshing native plugins compatible for Editor in 8.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.557 seconds
+Domain Reload Profiling: 2451ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (583ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (273ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1557ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (71.0 KB). Loaded Objects now: 4071.
+Memory consumption went from 135.5 MB to 135.4 MB.
+Total: 3.831300 ms (FindLiveObjects: 0.385100 ms CreateObjectMapping: 0.220100 ms MarkObjects: 3.073200 ms  DeleteObjects: 0.151700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12.194432 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbx
+  artifactKey: Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbx using Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0dbf4817e847b8e078952c5631c55c') in 0.253310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 147
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.908 seconds
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.444 seconds
+Domain Reload Profiling: 2348ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (593ms)
+		LoadAssemblies (433ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (264ms)
+				TypeCache.ScanAssembly (252ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1444ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (87.2 KB). Loaded Objects now: 4074.
+Memory consumption went from 135.5 MB to 135.4 MB.
+Total: 4.071900 ms (FindLiveObjects: 0.419300 ms CreateObjectMapping: 0.368100 ms MarkObjects: 3.150500 ms  DeleteObjects: 0.133200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.642728 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbx
+  artifactKey: Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbx using Guid(c3539fed62268cc41a0be28ea4135513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd09443e8dd03b0650eaa0ebed5d872') in 0.217633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 147
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.012 seconds
+Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.388 seconds
+Domain Reload Profiling: 2392ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (649ms)
+		LoadAssemblies (387ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (366ms)
+			TypeCache.Refresh (362ms)
+				TypeCache.ScanAssembly (345ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1389ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (71.0 KB). Loaded Objects now: 4077.
+Memory consumption went from 135.5 MB to 135.4 MB.
+Total: 4.490400 ms (FindLiveObjects: 0.537200 ms CreateObjectMapping: 0.318100 ms MarkObjects: 3.421400 ms  DeleteObjects: 0.211800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\WUStudent\Documents\GitHub\FPS_ReUpload\FPSUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.966 seconds
+Refreshing native plugins compatible for Editor in 8.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.282 seconds
+Domain Reload Profiling: 2244ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (675ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (387ms)
+			TypeCache.Refresh (383ms)
+				TypeCache.ScanAssembly (370ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1282ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (413ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3473 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (87.1 KB). Loaded Objects now: 4080.
+Memory consumption went from 135.7 MB to 135.7 MB.
+Total: 7.403200 ms (FindLiveObjects: 0.400600 ms CreateObjectMapping: 0.179700 ms MarkObjects: 6.591000 ms  DeleteObjects: 0.229900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 146.190636 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm
+  artifactKey: Guid(6fd08e5226175344986f2c1a004a6303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm using Guid(6fd08e5226175344986f2c1a004a6303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5561eef182ca9636985b21653d2f51d9') in 0.003058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071081 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Diffuse.png
+  artifactKey: Guid(62dd6bb75aa94ea4b938dbfbc2782740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Diffuse.png using Guid(62dd6bb75aa94ea4b938dbfbc2782740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.076442 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_diffuse.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.6723164Z' while content on disk has modification time of '2024-09-26T23:15:29.8724Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_diffuse.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.6723164Z' while content on disk has modification time of '2024-09-26T23:15:29.8724Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.032667 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png
+  artifactKey: Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png using Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022355 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021955 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022718 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png
+  artifactKey: Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png using Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022794 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025372 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026045 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020883 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023770 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020973 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.029198 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021767 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Specular.png
+  artifactKey: Guid(319a54b9b75e2b74fafc986d63afc9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Specular.png using Guid(319a54b9b75e2b74fafc986d63afc9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016129 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_specular.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7402846Z' while content on disk has modification time of '2024-09-26T23:15:29.9355654Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_specular.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7402846Z' while content on disk has modification time of '2024-09-26T23:15:29.9355654Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021010 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.029229 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.035512 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png
+  artifactKey: Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png using Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016474 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020479 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019924 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.029783 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png
+  artifactKey: Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png using Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022641 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026606 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png
+  artifactKey: Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png using Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030578 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030159 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.031622 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png
+  artifactKey: Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png using Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014909 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021862 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022467 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png
+  artifactKey: Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png using Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022195 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Specular.png
+  artifactKey: Guid(319a54b9b75e2b74fafc986d63afc9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Specular.png using Guid(319a54b9b75e2b74fafc986d63afc9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021217 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_specular.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7402846Z' while content on disk has modification time of '2024-09-26T23:15:29.9355654Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_specular.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7402846Z' while content on disk has modification time of '2024-09-26T23:15:29.9355654Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.027223 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png
+  artifactKey: Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Glossiness.png using Guid(6a3517e5e85bd5a489cd91ba147b8104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023632 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7462666Z' while content on disk has modification time of '2024-09-26T23:15:29.9460898Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.028143 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020647 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Specular.png
+  artifactKey: Guid(319a54b9b75e2b74fafc986d63afc9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Specular.png using Guid(319a54b9b75e2b74fafc986d63afc9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015267 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_specular.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7402846Z' while content on disk has modification time of '2024-09-26T23:15:29.9355654Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_specular.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7402846Z' while content on disk has modification time of '2024-09-26T23:15:29.9355654Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020935 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.028264 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png
+  artifactKey: Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Glossiness.png using Guid(e46c667a6c72ef64db495bbea26a3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019414 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_glossiness.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7694538Z' while content on disk has modification time of '2024-09-26T23:15:29.9627788Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png
+  artifactKey: Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Normal.png using Guid(16e3bcca130ffcf428eaf1b21fe08d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018234 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_normal.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.8131091Z' while content on disk has modification time of '2024-09-26T23:15:30.0082346Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Diffuse.png
+  artifactKey: Guid(0e4d90d012bd5964c9e056806fa18c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1002_Diffuse.png using Guid(0e4d90d012bd5964c9e056806fa18c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021665 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_diffuse.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7247514Z' while content on disk has modification time of '2024-09-26T23:15:29.9159211Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1002_diffuse.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.7247514Z' while content on disk has modification time of '2024-09-26T23:15:29.9159211Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Diffuse.png
+  artifactKey: Guid(62dd6bb75aa94ea4b938dbfbc2782740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch10_nonPBR@Walking.fbm/Ch10_1001_Diffuse.png using Guid(62dd6bb75aa94ea4b938dbfbc2782740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018081 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_diffuse.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.6723164Z' while content on disk has modification time of '2024-09-26T23:15:29.8724Z'
+  ERROR: Build asset version error: assets/models/ch10_nonpbr@walking.fbm/ch10_1001_diffuse.png in SourceAssetDB has modification time of '2024-09-26T23:13:13.6723164Z' while content on disk has modification time of '2024-09-26T23:15:29.8724Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.405101 seconds.
+  path: Assets/Models/Materials
+  artifactKey: Guid(b04bd654604e9dd4bb81bc7de4027226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials using Guid(b04bd654604e9dd4bb81bc7de4027226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d521e1472ade23388ac850c6d304578') in 0.000554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096197 seconds.
+  path: Assets/Models/Materials/Ch10_1001_Diffuse.mat
+  artifactKey: Guid(b0ceffe1bdec5bd40bdcc8cf485b225b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Ch10_1001_Diffuse.mat using Guid(b0ceffe1bdec5bd40bdcc8cf485b225b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cdc0907b5e907e1401bd7af40b9211') in 0.059524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

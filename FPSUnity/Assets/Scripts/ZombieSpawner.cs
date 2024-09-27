@@ -7,6 +7,7 @@ public class ZombieSpawner : MonoBehaviour
 {
     public static ZombieSpawner Instance;
     public GameObject zombiePrefab;
+    public GameObject crawlerPrefab;
     public List<Transform> spawnPoints;
 
     int waveCount;
@@ -38,17 +39,29 @@ public class ZombieSpawner : MonoBehaviour
         HUD.Instance.UpdateWaveUI(waveCount);
         int spawnChoice = Random.Range(0, spawnPoints.Count);
         int temp = spawnChoice;
+        int zombieChoice;
 
         for (int i = 0; i < waveCount; i++ )
         {
+            
             spawnChoice = Random.Range(0, spawnPoints.Count);
+            zombieChoice = Random.Range(0, 3);
 
+         
             while (spawnChoice == temp)
             {
                 spawnChoice = Random.Range(0, spawnPoints.Count);
             }
 
-            Instantiate(zombiePrefab, spawnPoints[spawnChoice].position, transform.rotation, transform);
+            if (zombieChoice == 0)
+            {
+                Instantiate(crawlerPrefab, spawnPoints[spawnChoice].position, transform.rotation, transform);
+            }
+            else
+            {
+                Instantiate(zombiePrefab, spawnPoints[spawnChoice].position, transform.rotation, transform);
+            }
+            
             temp = spawnChoice;
             
         }
