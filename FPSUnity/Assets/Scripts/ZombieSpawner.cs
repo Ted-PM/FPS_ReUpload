@@ -66,7 +66,10 @@ public class ZombieSpawner : MonoBehaviour
             
         }
 
-        
+        AmoSpawner.Instance.SpawnAmo();
+
+
+
     }
 
     public void CountZombies()
@@ -87,4 +90,6 @@ public class ZombieSpawner : MonoBehaviour
         //}
         
     }
+
+    public int GetWave() { return waveCount; }
 }

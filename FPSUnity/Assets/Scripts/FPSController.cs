@@ -14,6 +14,7 @@ public class FPSController : MonoBehaviour
     private float verticalRotation = 0;
     private float verticalVelocity = 0;
 
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -58,9 +59,17 @@ public class FPSController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("collision");
+
         if (collision.gameObject.GetComponent<Zombie>())
         {
             GameManager.Instance.GameOver();
         }
+        //else if (collision.gameObject.GetComponent<Amo>())
+        //{
+        //    Debug.Log("Amo collision");
+        //    gameObject.GetComponent<Cannon>().ReFillAmo();
+        //    Destroy(collision.gameObject.GetComponent<Amo>());
+        //}
     }
 }
